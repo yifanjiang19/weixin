@@ -3,8 +3,8 @@ html {
 }
 body {
   height: 100%;
-  background-color: #212121;
-  color: #FFF;
+  background-color: #FFF;
+  color: #212121;
 }
 
 header {
@@ -20,14 +20,19 @@ header {
 }
 tr {
   font-size: 1.8rem;
-  border: 2px solid #FFF;
+  border: 2px solid  #9E9E9E;
+  background: #FFFFFF;
+}
+tr:nth-child(odd){
+  background: #FAFAFA;
 }
 td, th {
   padding: .6em;
-  border-left: 2px solid #FFF;
-  border-right: 2px solid #FFF;
+  border-left: 2px solid #9E9E9E;
+  border-right: 2px solid #9E9E9E;
 }
 .team-name, .project-name {
+  text-align: left;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   overflow: hidden;
