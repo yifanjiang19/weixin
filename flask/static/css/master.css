@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: #212121;
+  color: #FFF;
+}
+
+header {
+  font-size: 1rem;
+  text-align: right;
+  padding: 1rem 5rem;
+}
+
+.table-container {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+tr {
+  font-size: 1.8rem;
+  border: 2px solid #FFF;
+}
+td, th {
+  padding: .6em;
+  border-left: 2px solid #FFF;
+  border-right: 2px solid #FFF;
+}
+.team-name, .project-name {
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.team-votes, .project-votes {
+  width: 6rem;
+}
+.team-result {
+  table-layout: fixed;
+  width: 40%;
+  float: left;
+}
+.project-result {
+  width: 60%;
+  table-layout: fixed;
+  float: left;
+}
+
